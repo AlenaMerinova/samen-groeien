@@ -13,12 +13,20 @@ body {
 /* Header en footer (zwart) */
 .site-header {
   background: #000;
-  padding: 1.5rem 1rem;
+  text-align: center;       /* centreren van het logo */
+  padding: 1.5rem 0;        /* wat ademruimte boven/onder */
 }
+
 .logo {
-  width: 10rem;
+  display: inline-block;    /* zorgt dat de afbeelding zichtbaar blijft */
+  width: 10rem;             /* 100px breed, prima voor web */
+  height: auto;
   margin: 0 auto;
+  opacity: 1;               /* zekerheid dat hij niet transparant is */
 }
+
+
+
 .site-footer {
   margin-top: auto;
   background: #000;
@@ -26,6 +34,7 @@ body {
   padding: 1rem;
   font-size: 0.95rem;
 }
+
 
 /* Podium container */
 .stage {
